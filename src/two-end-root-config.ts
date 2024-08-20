@@ -6,11 +6,11 @@ registerApplication({
   activeWhen: ['/dashboard'],
 });
 
-registerApplication({
-  name: '@two-end/app-planning-poker',
-  app: () => System.import<LifeCycles>('@two-end/app-planning-poker'),
-  activeWhen: ['/planning-poker'],
-});
+// registerApplication({
+//   name: '@two-end/app-planning-poker',
+//   app: () => System.import<LifeCycles>('@two-end/app-planning-poker'),
+//   activeWhen: ['/planning-poker'],
+// });
 
 start({
   urlRerouteOnly: false,
